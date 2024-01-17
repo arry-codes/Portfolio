@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.cod{
+    color: aquamarine;
+    font-family:Copperplate, Papyrus, fantasy;
+    font-size: x-large;
+}
+
+
+.navbar-nav{
+    margin-left: 80%;
+}
+
+.detail{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.detail h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+
+.logo{
+    margin-top: 2%;
+    
+}
+    
+
+.logo2{
+    margin-top: 1%;
+}
+
+
+
+span{
+    color: orange;
+}
+
+.detail p{
+    color: #555;
+    line-height: 22px;
+}
+
+.detail a{
+    background: #000;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+
+.detail a:hover{
+    background-color: #4c4b4b;
+}
+
+.detail a:hover{
+    background-color: #4c4b4b;
+}
+
+
+.social{
+    margin-left: 8%;
+    margin-top: 1.5%;
+}
+
+#insta:hover{
+    transform: scale(1.2);
+}
+
+#git:hover{
+    transform: scale(1.2);
+}
+
+#link:hover{
+    transform: scale(1.2);
+}
+
+#stack:hover{
+    transform: scale(1.2);
+}
+
+.image{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    border-radius: 50%;
+}
+
+.image img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    transition: bottom 1s,left 1s;
+}
+
+.image:hover .shape{
+    bottom: 40px;
+}
+
+.image:hover .boy{
+    left: 45%;
+}
+
